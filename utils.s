@@ -15,7 +15,7 @@
 #define c_printHex 34
 
 # ecall wrappers
-.globl print_int, print_str, atoi, sbrk, exit, print_char, fopen, fread, fwrite, fclose, exit2, fflush, ferror, printHex
+.globl print_int, print_str, atoi, sbrk, exit, print_char, fopen, fread, fwrite, fclose, exit2, fflush, ferror, print_hex
 
 # helper functions
 .globl file_error, print_int_array, malloc
@@ -328,6 +328,6 @@ outer_loop_end:
     lw s3 12(sp)
     lw s4 16(sp)
     lw ra 20(sp)
-    addi sp sp 20
+    addi sp sp 24
 
     jr ra
