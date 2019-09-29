@@ -2,7 +2,7 @@
 
 .text
 # =======================================================
-# FUNCTION: Matrix Multiplication of 2 float matrices
+# FUNCTION: Matrix Multiplication of 2 integer matrices
 # 	d = matmul(m0, m1)
 #   If the dimensions don't match, exit with exit code 2
 # Arguments:
