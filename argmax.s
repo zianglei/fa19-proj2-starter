@@ -3,7 +3,7 @@
 .text
 # =================================================================
 # FUNCTION: Given a int vector, return the index of the largest
-#	element and its value. If there are multiple, return the one
+#	element. If there are multiple, return the one
 #	with the smallest index.
 # Arguments:
 # 	a0 is the pointer to the start of the vector
